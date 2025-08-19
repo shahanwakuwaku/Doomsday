@@ -9,7 +9,7 @@ public enum EchoPreset {
         }
     },
     
-    DUOXINPO("夺心魄", EchoType.CONTINUOUS, ActivationType.AWAKENING, 50, 5) {
+    DUOXINPO("操纵术", EchoType.CONTINUOUS, ActivationType.AWAKENING, 50, 5) {
         @Override
         public Echo createEcho() {
             return new DuoXinPoEcho();
@@ -58,7 +58,7 @@ public enum EchoPreset {
         }
     },
 
-    YUSHENJUN("御神君", EchoType.CONTINUOUS, ActivationType.AWAKENING, 200, 1) {
+    YUSHENJUN("鬼化", EchoType.CONTINUOUS, ActivationType.AWAKENING, 200, 1) {
         @Override
         public Echo createEcho() {
             return new YuShenJunEcho();
@@ -219,7 +219,7 @@ public enum EchoPreset {
         }
     },
 
-    MAOMU("茂木", EchoType.ACTIVE, ActivationType.TRIGGER, 20, 0) {
+    MAOMU("恫吓", EchoType.ACTIVE, ActivationType.TRIGGER, 20, 0) {
         @Override
         public Echo createEcho() {
             return new MaoMuEcho();
